@@ -6,6 +6,7 @@ import { VideoCard } from './VideoCard';
 import { VideoGroupCard, GroupedVideo } from './VideoGroupCard';
 import { settingsStore } from '@/lib/store/settings-store';
 import { Video } from '@/lib/types';
+import { useResolutionProbe } from '@/lib/hooks/useResolutionProbe';
 
 interface VideoGridProps {
   videos: Video[];
